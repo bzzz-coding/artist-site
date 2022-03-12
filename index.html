@@ -12,6 +12,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="Bitian Zhang's artist website." />
 	<meta name="keywords" content="Art, Sculpture, Paper, Artist Book" />
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -96,10 +99,24 @@
 									src="images/gallery/thumbs/pelvis-5.jpg" alt="" /></a>
 							<a href="images/gallery/fulls/pelvis-6.jpg" class="landscape"><img
 									src="images/gallery/thumbs/pelvis-6.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/pelvis-7.jpg"><img
-									src="images/gallery/thumbs/pelvis-7.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/pelvis-8.jpg"><img
-									src="images/gallery/thumbs/pelvis-8.jpg" alt="" /></a>
+							<a href="images/gallery/fulls/pelvis-7.jpg"><img src="images/gallery/thumbs/pelvis-7.jpg"
+									alt="" /></a>
+							<a href="images/gallery/fulls/pelvis-8.jpg"><img src="images/gallery/thumbs/pelvis-8.jpg"
+									alt="" /></a>
+						</div>
+					</div>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header>
+						<h3>Noah</h3>
+						<p>Clay, 2012</p>
+					</header>
+					<div class="content">
+						<div class="gallery">
+							<a href="images/gallery/fulls/noah.jpg"><img src="images/gallery/thumbs/noah.jpg"
+									alt="" /></a>
 						</div>
 					</div>
 				</section>
@@ -112,10 +129,8 @@
 					</header>
 					<div class="content">
 						<div class="gallery">
-							<a href="images/gallery/fulls/05.jpg" class="landscape"><img
-									src="images/gallery/thumbs/05.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+							<a href="images/gallery/fulls/ears-1.jpg"><img src="images/gallery/thumbs/ears-1.jpg"
+									alt="" /></a>
 						</div>
 					</div>
 				</section>
@@ -128,10 +143,14 @@
 					</header>
 					<div class="content">
 						<div class="gallery">
-							<a href="images/gallery/fulls/05.jpg" class="landscape"><img
-									src="images/gallery/thumbs/05.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+							<a href="images/gallery/fulls/ears-2-1.jpg" class="landscape"><img
+									src="images/gallery/thumbs/ears-2-1.jpg" alt="" /></a>
+							<a href="images/gallery/fulls/ears-2-2.jpg"><img src="images/gallery/thumbs/ears-2-2.jpg"
+									alt="" /></a>
+							<a href="images/gallery/fulls/ears-2-3.jpg"><img src="images/gallery/thumbs/ears-2-3.jpg"
+									alt="" /></a>
+							<a href="images/gallery/fulls/ears-2-4.jpg" class="landscape"><img
+									src="images/gallery/thumbs/ears-2-4.jpg" alt="" /></a>
 						</div>
 					</div>
 				</section>
@@ -144,12 +163,15 @@
 					</header>
 					<div class="content">
 						<div class="gallery">
+							<a href="images/gallery/fulls/artist-book-inside.jpg" class="landscape"><img
+									src="images/gallery/thumbs/artist-book-inside.jpg" alt="" /></a>
+							<a href="images/gallery/fulls/cover.jpg" class="landscape"><img
+									src="images/gallery/thumbs/cover.jpg" alt="" /></a>
 							<a href="images/gallery/fulls/binding.jpg" class="portrait"><img
 									src="images/gallery/thumbs/binding.jpg" alt="" /></a>
 							<a href="images/gallery/fulls/pepper.jpg" class="portrait"><img
 									src="images/gallery/thumbs/pepper.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/cover.jpg" class="landscape"><img
-									src="images/gallery/thumbs/cover.jpg" alt="" /></a>
+
 						</div>
 					</div>
 				</section>
@@ -228,23 +250,103 @@
 			<header>
 				<h2>In the Studio</h2>
 			</header>
-			<div class="content">
-				<p><strong>Sculptures</strong> made with clay and plaster.</p>
-				<span class="image main"><img src="images/nude-shoulder.jpg" alt="Nude Sculpture, shoulders" /></span>
-				<div class="content">
-					<div class="gallery">
-						<a href="images/gallery/fulls/noah-front.jpg" class="portrait"><img
-								src="images/gallery/thumbs/noah-front.jpg" alt="" /></a>
-						<a href="images/gallery/fulls/noah-side.jpg" class="portrait"><img
-								src="images/gallery/thumbs/noah-side.jpg" alt="" /></a>
-						<a href="images/gallery/fulls/female-model.jpg" class="portrait"><img
-								src="images/gallery/thumbs/female-model.jpg" alt="" /></a>
-						<a href="images/gallery/fulls/male-model.jpg" class="portrait"><img
-								src="images/gallery/thumbs/male-model.jpg" alt="" /></a>
-						<a href="images/gallery/fulls/nude-back.jpg" class="landscape"><img
-								src="images/gallery/thumbs/nude-back.jpg" alt="" /></a>
+
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+						aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+						aria-label="Slide 4"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+						aria-label="Slide 5"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+						aria-label="Slide 6"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+						aria-label="Slide 7"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+						aria-label="Slide 8"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+						aria-label="Slide 9"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+						aria-label="Slide 10"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="slide-1 carousel-item active">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Paper Making</h5> -->
+							<p>Paper Making</p>
+						</div>
+					</div>
+					<div class="slide-2 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Paper Making</h5> -->
+							<p>Paper made from corn husks.</p>
+						</div>
+					</div>
+					<div class="slide-3 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Third slide label</h5> -->
+							<p>Paper made from cotton t-shirts and a mix of wild leaves.</p>
+						</div>
+					</div>
+					<div class="slide-4 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Third slide label</h5> -->
+							<p>Drying paper.</p>
+						</div>
+					</div>
+					<div class="slide-5 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Third slide label</h5> -->
+							<p>Drying paper.</p>
+						</div>
+					</div>
+					<div class="slide-6 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Third slide label</h5> -->
+							<p>Head Study I.</p>
+						</div>
+					</div>
+					<div class="slide-7 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Third slide label</h5> -->
+							<p>Head Study II.</p>
+						</div>
+					</div>
+					<div class="slide-8 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Third slide label</h5> -->
+							<p>Head Study III.</p>
+						</div>
+					</div>
+					<div class="slide-9 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Third slide label</h5> -->
+							<p>Nude Study.</p>
+						</div>
+					</div>
+					<div class="slide-10 carousel-item">
+
+						<div class="carousel-caption d-none d-md-block">
+							<!-- <h5>Third slide label</h5> -->
+							<p>Sculpture of Noah.</p>
+						</div>
 					</div>
 				</div>
+
 			</div>
 		</section>
 
@@ -595,6 +697,10 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 	</div>
 
 	<!-- Scripts -->
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
