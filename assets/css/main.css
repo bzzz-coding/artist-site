@@ -2641,41 +2641,41 @@ input, select, textarea {
 } */
 
 .slide-1 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/paper-making.jpg');
+	background-image: url('../../images/gallery/thumbs/paper-making.jpg');
 }
 
 .slide-2 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/fiber-filter.jpg');
+	background-image: url('../../images/gallery/thumbs/fiber-filter.jpg');
 }
 
 .slide-3 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/mixed-leaves.jpg');
+	background-image: url('../../images/gallery/thumbs/mixed-leaves.jpg');
 }
 
 .slide-4 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/paper-drying-1.jpg');
+	background-image: url('../../images/gallery/thumbs/paper-drying-1.jpg');
 }
 
 .slide-5 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/paper-drying-2.jpg');
+	background-image: url('../../images/gallery/thumbs/paper-drying-2.jpg');
 }
 
 .slide-6 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/male-model.jpg');
+	background-image: url('../../images/gallery/thumbs/male-model.jpg');
 }
 
 .slide-7 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/female-model.jpg');
+	background-image: url('../../images/gallery/thumbs/female-model.jpg');
 }
 
 .slide-8 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/female-model-2.jpg');
+	background-image: url('../../images/gallery/thumbs/female-model-2.jpg');
 }
 .slide-9 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/male-model-back.jpg');
+	background-image: url('../../images/gallery/thumbs/male-model-back.jpg');
 }
 .slide-10 {
-	background-image: url('/Users/tiantian/Desktop/WebDev100/Artist Site/images/gallery/thumbs/noah-in-studio.jpg');
+	background-image: url('../../images/gallery/thumbs/noah-in-studio.jpg');
 }
 
 /* Actions */
